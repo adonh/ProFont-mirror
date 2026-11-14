@@ -1,0 +1,15 @@
+* text=auto
+*.bat text eol=crlf
+*.bash text eol=lf
+*.cmd text eol=crlf
+*.ico binary
+*.jpg binary
+*.pdf binary
+*.png binary
+*.sh text eol=lf
+run text eol=lf
+docs/assets/** -text
+docs/assets/styles.css text eol=lf
+docs/downloads/** -text
+docs/SHA256SUMS text eol=lf
+scripts/upstream-sha256sums.txt text eol=lf

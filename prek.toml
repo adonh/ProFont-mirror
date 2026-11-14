@@ -1,0 +1,42 @@
+#:schema https://www.schemastore.org/prek.json
+
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "check-added-large-files" },
+  { id = "check-case-conflict" },
+  { id = "check-executables-have-shebangs" },
+  { id = "check-illegal-windows-names" },
+  { id = "check-json" },
+  { id = "check-json5" },
+  { id = "check-jsonc" },
+  { id = "check-merge-conflict" },
+  { id = "check-shebang-scripts-are-executable" },
+  { id = "check-symlinks" },
+  { id = "check-toml" },
+  { id = "check-vcs-permalinks" },
+  { id = "check-xml" },
+  { id = "check-yaml", args = [ "--allow-multiple-documents" ] },
+  { id = "destroyed-symlinks" },
+  { id = "detect-private-key" },
+  { id = "end-of-file-fixer", exclude = '^docs/', stages = [ "pre-commit" ] },
+  { id = "fix-byte-order-marker", exclude = '^docs/', stages = [ "pre-commit" ] },
+  { id = "mixed-line-ending", exclude = '^docs/', stages = [ "pre-commit" ] },
+  { id = "trailing-whitespace", exclude = '^docs/', args = [ "--markdown-linebreak-ext", "md" ], stages = [ "pre-commit" ] }
+]
+
+[[repos]]
+repo = "https://github.com/shellcheck-py/shellcheck-py"
+rev = "a6564f5d57444e123433a5c9af733e3975c77229"  # v0.11.0.1-1
+hooks = [ { id = "shellcheck", exclude = '^\..*' } ]
+
+[[repos]]
+repo = "local"
+
+[[repos.hooks]]
+id = "check-mirror"
+name = "Verify mirrored checksums"
+entry = "bash scripts/check-mirror.bash"
+language = "system"
+files = '^(docs/|scripts/(upstream-sha256sums\.txt|check-mirror\.bash)$)'
+pass_filenames = false

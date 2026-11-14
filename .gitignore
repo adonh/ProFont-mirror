@@ -1,0 +1,39 @@
+# backup:
+*.back
+*.backup
+*.bak
+*.old
+
+# original:
+*.ori
+*.orig
+*.original
+
+# temporary:
+*.temp
+*.temporary
+*.tmp
+
+# local development:
+*.local
+*.swo
+*.swp
+*~
+[._]*.s[a-v][a-z]
+\#*\#
+
+# MacOS:
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows:
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# but don't ignore markdown anywhere:
+!*.md
