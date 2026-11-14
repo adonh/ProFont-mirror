@@ -1,12 +1,13 @@
-# ProFont static mirror
+# ProFont mirror
 
 This repository is a static mirror of the ProFont archive at <https://tobiasjung.name/profont/>.
 It uses a new, accessible page design while preserving the original downloadable files and documentation.
 
-## Browse the archive
+## Browse the mirror
 
 [Browse downloads and font formats](docs/index.md#downloads)
-or read the [original ProFont documentation (PDF)](docs/assets/About_ProFont_Distribution_2.2.pdf).
+or [view the entire downloads directory on GitHub](https://github.com/adonh/ProFont-mirror/tree/main/docs/downloads).
+Read the [original ProFont documentation (PDF)](docs/assets/About_ProFont_Distribution_2.2.pdf).
 
 Downloaded files are preserved byte-for-byte.
 The [SHA-256 manifest](docs/SHA256SUMS) records their checksums and the UTC mirror time.

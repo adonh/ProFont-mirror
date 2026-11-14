@@ -1,5 +1,6 @@
-title: ProFont archive
-description: A static archive of ProFont, a compact monospaced typeface for programming.
+title: ProFont mirror
+description: A static mirror of ProFont, a compact monospaced typeface for programming.
+downloads_directory_url: https://github.com/adonh/ProFont-mirror/tree/main/docs/downloads
 markdown: kramdown
 kramdown:
   input: GFM

@@ -1,18 +1,20 @@
 ---
 layout: default
 title: ProFont
-description: A static archive of ProFont, a compact monospaced typeface for programming.
+description: A static mirror of ProFont, a compact monospaced typeface for programming.
 ---
 
-# ProFont
+# ProFont mirror
+
+**Upstream source:** <https://tobiasjung.name/profont/>.
 
 A compact, highly legible monospaced typeface with a slashed zero and distinct
 forms for `I`, `l`, and `1`.
 
-This static archive makes the original ProFont distributions, documentation,
+This static mirror makes the original ProFont distributions, documentation,
 and related files available without relying on a server-side download endpoint.
 
-[Browse downloads](#downloads) · [Read the documentation](assets/About_ProFont_Distribution_2.2.pdf)
+[Browse downloads](#downloads) · [View the full directory on GitHub]({{ site.downloads_directory_url }}) · [Read the documentation](assets/About_ProFont_Distribution_2.2.pdf)
 
 ## About
 
@@ -20,7 +22,7 @@ ProFont began on classic Mac OS and was designed to stay crisp and readable at
 very small point sizes. It is particularly useful when many lines of source
 code need to remain visible at once.
 
-The archive includes bitmap and outline versions for classic Mac OS, macOS,
+The mirror includes bitmap and outline versions for classic Mac OS, macOS,
 Windows, and Linux/UNIX X Window systems. Compatibility with current operating
 systems varies by file format.
 

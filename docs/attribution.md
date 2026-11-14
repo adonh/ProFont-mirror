@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Attribution and rights
-description: Attribution and rights information for the ProFont archive.
+description: Attribution and rights information for the ProFont mirror.
 ---
 
 # Attribution and rights
@@ -19,4 +19,4 @@ Those works retain their original licensing and attribution.
 This mirror grants no separate license for content other than files explicitly identified as
 MIT licensed.
 
-[Return to the archive](./)
+[Return to the mirror](./)

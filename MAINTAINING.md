@@ -47,6 +47,10 @@ Edit pages, layouts, configuration, and styles in [`templates/`](templates/),
 not their generated copies in [`docs/`](docs/).
 Rebuild after changing templates.
 
+The site's directory links open the downloads folder on GitHub.
+If the repository or branch changes, update `downloads_directory_url`
+in `templates/_config.yml` and the directory link in `README.md`.
+
 `docs/` is the publish directory.
 For branch-based GitHub Pages publishing, open the repository's **Settings > Pages**,
 choose **Deploy from a branch**, and select the branch containing the generated site
