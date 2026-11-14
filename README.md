@@ -14,6 +14,9 @@ The [SHA-256 manifest](docs/SHA256SUMS) records their checksums and the UTC mirr
 
 ## Rights and attribution
 
+The repository's original code and documentation are licensed under the
+[MIT License](LICENSES/Mirror-MIT.txt).
+
 ProFont is published under the [MIT License](LICENSES/ProFont-MIT.txt).
 Other mirrored materials retain their original licensing and attribution;
 this repository does not relicense them.

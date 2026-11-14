@@ -2,6 +2,17 @@
 
 This is an independently maintained static mirror of <https://tobiasjung.name/profont/>.
 
+## Repository-authored work
+
+Original code and documentation created for this repository are licensed under the
+[MIT License](LICENSES/Mirror-MIT.txt), copyright 2026 ProFont mirror contributors.
+This includes the mirroring scripts, runner, tests, original site layout and styles,
+and repository documentation.
+
+An identical copy is kept at [`LICENSE`](LICENSE) for GitHub's license detection.
+
+## Upstream materials
+
 Website information and documentation are credited to Tobias Jung
 and remain copyrighted by their respective rights holders.
 
@@ -27,5 +38,4 @@ Jens Brüggemann,
 and Sheldon Simms.
 Their work retains its original licensing and attribution.
 
-No separate license is granted by this mirror for content other than files explicitly identified as
-MIT licensed.
+The repository's MIT license does not relicense upstream materials.

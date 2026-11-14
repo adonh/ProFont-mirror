@@ -56,6 +56,12 @@ For branch-based GitHub Pages publishing, open the repository's **Settings > Pag
 choose **Deploy from a branch**, and select the branch containing the generated site
 with the **/docs** folder.
 
+## License files
+
+The repository-authored MIT license is stored in [`LICENSES/Mirror-MIT.txt`](LICENSES/Mirror-MIT.txt).
+Keep the root [`LICENSE`](LICENSE) identical for GitHub's license detection.
+The mirror copies `LICENSES/` into `docs/LICENSES/` during rebuilds.
+
 ## Timestamps and integrity
 
 Each mirror run writes the UTC mirror time to [`docs/_data/mirror.yml`](docs/_data/mirror.yml),
