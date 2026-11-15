@@ -1,0 +1,7 @@
+rules:
+  artipacked:
+    disable: true
+  unpinned-uses:
+    disable: true
+  workflow-call:
+    disable: true
